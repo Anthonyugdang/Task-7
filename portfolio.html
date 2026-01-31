@@ -10,114 +10,143 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="nav-brand" href="#">MyPortfolio</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">MyPortfolio</a>
 
-            <button class="nav-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="nav-toggler-icon"></span>
-                </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse nav-bar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.html">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <main class="container py-5 mt-5">
+    <div class="bento-card mb-4 p-4 header-container">
+        <div class="row align-items-center">
+            <div class="col-md-auto text-center">
+                <img src="C:\Users\say\Downloads\ugdang.jpg" alt="Anthony Ugdang" class="profile-img shadow-sm">
             </div>
-        </div>
-    </nav>
-    <!-- Home Section-->
-     <section id="home" class="bg-primary text-white text-center p-5">
-        <div class="container">
-            <h1>Hello, I'm Anthony</h1>
-            <p class="lead">Web Developer | IT Student</p>
-
-            <a href="#projects" class="btn btn-light">View My Work</a>
-        </div>
-     </section>
-     <!--About me Section-->
-     <section id="About">
-        <div class="container">
-            <div class="row align-item-container">
-                <div class="col-lg-6">
-                    <h2>About Me</h2>
-                    <p>
-                        I'm a beginner web Developer and learning HTML, CSS, Bootstrap, and JavaScript. 
-                    </p>
+            <div class="col-md">
+                <h1 class="fw-bold mb-1">Sery Anthony Ugdang <span class="fs-6 text-muted fw-normal">He/Him</span></h1>
+                <p class="text-muted mb-2">BSIT Student</p>
+                <p class="text-muted small"><i class="bi bi-geo-alt"></i> Davao City, Philippines</p>
+                <div class="d-flex flex-wrap gap-2 mt-3">
+                    <a href="mailto:Ugdangsery@gmail.com" class="social-btn"><i class="bi bi-envelope"></i> Ugdangsery@gmail.com</a>
+                    <a href="https://github.com/Anthonyugdang" class="social-btn"><i class="bi bi-github"></i> GitHub</a>
                 </div>
             </div>
-        </div>
-     </section>
-     <!--Skills Section-->
-     <section id="skills"
-        <div class="container text-center">
-            <h2 class="mb-5">My Skills</h2>
-
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card p-3">HTML</div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card p-3">CSS</div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card p-3">Bootstrap</div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card p-3">JavaScript</div>
+            <div class="col-md-auto d-none d-lg-block">
+                <div class="text-end">
+                    <img src="C:\Users\say\Downloads\umlogo.png" alt="University of Mindanao" width="60">
+                    <p class="small text-muted mt-1 mb-0">University of Mindanao</p>
                 </div>
             </div>
         </div>
-    </section>
-    <section id="projects" class="py-5">
-        <div class="container text-center">
-            <h2 class="mb-4">My Projects</h2>
+    </div>
 
-            <div class="row">
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="http://picsum.photos/300" class="card-img-top" />
-                        <div class="card-body">
-                            <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">Simple Website Designer</p>
-                        </div>
+    <div class="row g-4">
+        <div class="col-lg-8">
+            <div class="bento-card p-4 mb-4">
+                <h5 class="fw-bold mb-3"><i class="bi bi-person"></i> About Me</h5>
+                <p class="text-muted">I'm a BS Information Technology student. I focus on learning to build clean, responsive, and user-friendly interfaces..</p>
+                <p class="text-muted">I'm currently learning modern web technologies to broaden my skill set and strengthen my understanding of scalable applications.</p>
+            </div>
+
+            <div class="bento-card p-4 mb-4">
+                <h5 class="fw-bold mb-4"><i class="bi bi-briefcase"></i> Experience</h5>
+                <div class="exp-item mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="fw-bold mb-0">BSIT Student / Web Developer</h6>
+                        <span class="text-muted small">Jan 2026 - Present</span>
                     </div>
+                    <p class="small text-muted">University of Mindanao</p>
                 </div>
+            </div>
 
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="http://picsum.photos/300" class="card-img-top" />
-                        <div class="card-body">
-                            <h5 class="card-title">Project 2</h5>
-                            <p class="card-text">Bootstrap Landing page</p>
-                        </div>
+            <div class="bento-card p-4 mb-4">
+                <h5 class="fw-bold mb-3"><i class="bi bi-controller"></i> Hobbies</h5>
+                <div class="mb-3">
+                    <h6 class="fw-bold small mb-0">Gaming</h6>
+                    <p class="small text-muted">I love playing online games, it's either on PC or Mobile</p>
+                </div>
+                <div class="mb-3">
+                    <h6 class="fw-bold small mb-0">Outdoor Activities</h6>
+                    <p class="small text-muted">I love hiking, cycling, and many more activities that challenges myself to the limit.</p>
+                </div>
+                <div class="mb-3">
+                    <h6 class="fw-bold small mb-0">Music & Entertainment</h6>
+                    <p class="small text-muted">I love listening to music. I also love to play musical instrument. I love watching movies or series.</p>
                     </div>
-                </div>
+            </div>
 
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="http://picsum.photos/300" class="card-img-top" />
-                        <div class="card-body">
-                            <h5 class="card-title">Project 3</h5>
-                            <p class="card-text">Portfolio Website</p>
-                        </div>
-                    </div>
+            <div class="bento-card p-4">
+                <div class="d-flex justify-content-between mb-3">
+                    <h5 class="fw-bold mb-0">Recently Learning</h5>
+                    <a href="#" class="small text-decoration-none">View All ></a>
                 </div>
-
+                <div class="cert-item p-3 mb-2 rounded shadow-sm">
+                    <h6 class="fw-bold mb-0 small">HTML & CSS</h6>
+                    <p class="extra-small text-muted mb-0">University of Mindanao</p>
+                </div>
+                <div class="cert-item p-3 rounded shadow-sm">
+                    <h6 class="fw-bold mb-0 small">Git & Version Control</h6>
+                    <p class="extra-small text-muted mb-0">University of Mindanao</p>
+                </div>
             </div>
         </div>
-    </section>
 
-    <section id="contact" class="bg-dark text-white py-5">
-        <div class="container text-center">
-            <h2>Contact Me</h2>
-            <p>Email:Ugdangsery@gmail.com</p>
-            <p>+63 000 000 0000</p>
+        <div class="col-lg-4">
+            <div class="bento-card p-4 mb-4">
+                <h5 class="fw-bold mb-3"><i class="bi bi-layers"></i> Tech Stack</h5>
+                <p class="extra-small fw-bold text-muted text-uppercase mb-2">Frontend</p>
+                <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="stack-tag">HTML</span>
+                    <span class="stack-tag">CSS</span>
+                    <span class="stack-tag">Bootstrap</span>
+                    <span class="stack-tag">JavaScript</span>
+                </div>
+                <p class="extra-small fw-bold text-muted text-uppercase mb-2">Backend</p>
+                <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="stack-tag">MySQL</span>
+                </div>
+                <p class="extra-small fw-bold text-muted text-uppercase mb-2">Developer Tools</p>
+                <div class="d-flex flex-wrap gap-2">
+                    <span class="stack-tag">Git</span>
+                    <span class="stack-tag">GitHub</span>
+                    <span class="stack-tag">VS Code</span>
+                </div>
+            </div>
+
+            <div class="bento-card p-4">
+                <div class="d-flex justify-content-between mb-3">
+                    <h5 class="fw-bold mb-0">Recent Projects</h5>
+                    <a href="#" class="small text-decoration-none">View All ></a>
+                </div>
+                <div class="project-item p-3 border rounded mb-2">
+                    <h6 class="fw-bold mb-1 small">Portfolio Website</h6>
+                    <p class="extra-small text-muted mb-0">A personal portfolio built with Bootstrap and Bento styling.</p>
+                </div>
+                <div class="project-item p-3 border rounded">
+                    <h6 class="fw-bold mb-1 small">Auth System</h6>
+                    <p class="extra-small text-muted mb-0">Login and Registration forms for user authentication.</p>
+                </div>
+                <div class="project-item p-3 border rounded">
+                    <h6 class="fw-bold mb-1 small">Ecommerce System</h6>
+                    <p class="extra-small text-muted mb-0">Ecommerce system to present as Final Project.</p>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+</main>
 
     <footer class="text-center py-3 bg-secondary text-white">
         <p class="mb-0">© 2026 My Portfolio</p>
